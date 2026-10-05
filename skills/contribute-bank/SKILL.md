@@ -266,3 +266,8 @@ Peer production support.
 - [ ] Negative tests for every case listed in step 4.
 - [ ] One owner-authorized live report citing the exact tested revision, with limitations.
 - [ ] `npm run check` (or `check:bank`) and all privacy commands pass; diff read in full.
+
+
+## Example Usage
+
+Resolved parameter handling for issue #183.
