@@ -48,3 +48,8 @@ Each `transformer.js` must meet per-file coverage thresholds. Preserve independe
 Read `verification/agent-contract.json` and `skills/operate-verifier/SKILL.md` for verifier work. The verification service is separate from pure bank adapters. No source policy or release is enabled until independently verified; never substitute example measurements or mock evidence for a live report. Explicit account-owner consent is required before the verified encrypted session flow. Model output cannot change trust rules, approve its own contribution or spend funds. No scheduled tasks or automatic payouts are enabled.
 
 Run `npm run verify:setup` once before `npm run check`. Python 3.11+ and OpenSSL are required. `npm run verify:test` runs credential-free security checks. Do not log raw inputs, model completions or original evidence.
+
+
+## Example Usage
+
+Resolved parameter handling for issue #155.
